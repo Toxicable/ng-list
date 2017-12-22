@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+    <button mat-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button>
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav></mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+        https://docs.google.com/document/d/1CZC2rcpxffTDfRDs6p1cfbmKNLA6x5O-NtkJglDaBVs/preview
+    </mat-sidenav-content>
+</mat-sidenav-container>
